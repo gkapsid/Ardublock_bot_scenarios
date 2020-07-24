@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="2560">
+<PageBlocks>
+<Block genus-name="servo_default" id="497">
+<Location>
+<X>215</X>
+<Y>162</Y>
+</Location>
+<BeforeBlockId>485</BeforeBlockId>
+<AfterBlockId>483</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="498" connector-kind="socket" connector-type="number" init-type="number" label="ακίδα#" position-type="single"/>
+<BlockConnector con-block-id="499" connector-kind="socket" connector-type="number" init-type="number" label="γωνία" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="499">
+<Label>0</Label>
+<Location>
+<X>471</X>
+<Y>189</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="497" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="pinListDigital_D3" id="498">
+<Location>
+<X>471</X>
+<Y>165</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="497" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="delay" id="495">
+<Location>
+<X>354</X>
+<Y>432</Y>
+</Location>
+<BeforeBlockId>477</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="496" connector-kind="socket" connector-type="number" init-type="number" label="χιλ/στά δευτ/πτου" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="496">
+<Label>1000</Label>
+<Location>
+<X>570</X>
+<Y>435</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="495" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="488">
+<Label>angle2</Label>
+<Location>
+<X>610</X>
+<Y>369</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="477" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="addition" id="493">
+<Location>
+<X>578</X>
+<Y>311</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="489" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="492" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+<BlockConnector con-block-id="494" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="bottom"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="494">
+<Label>10</Label>
+<Location>
+<X>701</X>
+<Y>314</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="493" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="492">
+<Label>angle2</Label>
+<Location>
+<X>588</X>
+<Y>314</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="493" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="setter_variable_number" id="489">
+<Location>
+<X>354</X>
+<Y>284</Y>
+</Location>
+<BeforeBlockId>483</BeforeBlockId>
+<AfterBlockId>477</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="490" connector-kind="socket" connector-type="number" init-type="number" label="μεταβλητή" position-type="single"/>
+<BlockConnector con-block-id="493" connector-kind="socket" connector-type="number" init-type="number" label="τιμή" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="490">
+<Label>angle2</Label>
+<Location>
+<X>578</X>
+<Y>287</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="489" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="servo_default" id="477">
+<Location>
+<X>354</X>
+<Y>342</Y>
+</Location>
+<BeforeBlockId>489</BeforeBlockId>
+<AfterBlockId>495</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="478" connector-kind="socket" connector-type="number" init-type="number" label="ακίδα#" position-type="single"/>
+<BlockConnector con-block-id="488" connector-kind="socket" connector-type="number" init-type="number" label="γωνία" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pinListDigital_D3" id="478">
+<Location>
+<X>610</X>
+<Y>345</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="477" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="setter_variable_number" id="485">
+<Location>
+<X>215</X>
+<Y>108</Y>
+</Location>
+<BeforeBlockId>476</BeforeBlockId>
+<AfterBlockId>497</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="486" connector-kind="socket" connector-type="number" init-type="number" label="μεταβλητή" position-type="single"/>
+<BlockConnector con-block-id="487" connector-kind="socket" connector-type="number" init-type="number" label="τιμή" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="487">
+<Label>0</Label>
+<Location>
+<X>439</X>
+<Y>135</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="485" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="486">
+<Label>angle2</Label>
+<Location>
+<X>439</X>
+<Y>111</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="485" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="repeat_times" id="483">
+<Location>
+<X>215</X>
+<Y>252</Y>
+</Location>
+<BeforeBlockId>497</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="484" connector-kind="socket" connector-type="number" init-type="number" label="φορές" position-type="single"/>
+<BlockConnector con-block-id="489" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Commands" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="484">
+<Label>18</Label>
+<Location>
+<X>357</X>
+<Y>255</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="483" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="476">
+<Location>
+<X>100</X>
+<Y>100</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="485" connector-kind="socket" connector-type="cmd" init-type="cmd" label="κάνε" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
