@@ -1,1 +1,15 @@
+# Οδηγίες εγκατάστασης
 
+http://blog.ardublock.com/engetting-started-ardublockzhardublock/
+
+1. Βρείτε την τοποθεσία που αποθηκεύονται τα sketch
+
+    In Mac, it’s by default “Documents/Arduino” under user’s home directory
+    In Linux, it’s by default “sketchbook” under user’s home directory
+    In Windows, it’s by default “Documents\Arduino” under user’s home directory
+
+2. Αντιγράψτε το ardublock-all.jar στο φάκελο tools/ArduBlockTool/tool/ που θα βρίσκεται κάτω από τον φάκελο που βρίσκονται τα sketches. Παράδειγμα: Έστω ότι ο χρήστης λέγεται "abu".
+    
+    Σε Mac, /Users/abu/Documents/Arduino/tools/ArduBlockTool/tool/ardublock-all.jar
+    Σε Linux, /home/abu/sketchbook/tools/ArduBlockTool/tool/ardublock-all.jar
+    Σε Windows, C:\Users\abu\Documents\Arduino\tools\ArduBlockTool\tool\ardublock-all.jar
